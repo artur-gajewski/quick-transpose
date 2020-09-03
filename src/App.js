@@ -11,7 +11,7 @@ import './App.css';
 const App = () => {
     const defaultScale = 'C Dm Em F G Am Bm';
     const [currentTransposition, setCurrentTransposition] = useState(0);
-    const [givenChords, setGivenChords] = useState(defaultScale);
+    const [givenChords, setGivenChords] = useState('');
 
     const transposeDown = () => {
         setCurrentTransposition(
@@ -52,7 +52,7 @@ const App = () => {
         <div className="app">
             <div className="app-content">
                 <h1>Quick Transpose</h1>
-                <InputBox setGivenChords={setGivenChords} />
+                <InputBox setGivenChords={setGivenChords} givenChords={givenChords} />
                 <Chords
                     songChordsTransposedArray={songChordsTransposedArray}
                     songChordsOriginal={songChordsOriginal}
