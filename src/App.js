@@ -4,6 +4,7 @@ import { Controls} from './components/Controls';
 import { Metadata} from './components/Metadata';
 import { Chords} from './components/Chords';
 import { InputBox} from './components/InputBox';
+import { Credits } from './components/Credits';
 
 import './App.css';
 
@@ -63,6 +64,7 @@ const App = () => {
                     transposeUp={transposeUp}
                     resetTranspose={resetTranspose}
                 />
+                <Credits />
             </div>
         </div>
     );
