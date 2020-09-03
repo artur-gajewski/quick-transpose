@@ -1,0 +1,83 @@
+body {
+  background-color: #282c34;
+}
+
+.app {
+  text-alignx: center;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+.app-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-bottom: 2em;
+}
+
+.floater {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+.metadata {
+  margin-top: 1.5em;
+}
+
+.controls {
+  margin-top: 2.5em;
+  margin-bottom: 1em;
+  position: -webkit-sticky; /* Safari */
+  background-color: #282c34;
+}
+
+.controls input {
+  min-width: 120px;
+  min-height: 50px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.inputs {
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
+
+.inputs input {
+  font-size: 1.3em;
+  height: 2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+table.chords td {
+  width: 2em;
+  text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  .controls input {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+
+
+}
+
