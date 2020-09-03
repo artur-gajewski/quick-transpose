@@ -50,7 +50,7 @@ const App = () => {
     return (
         <div className="app">
             <div className="app-content">
-                <h1>Quick Transposer</h1>
+                <h1>Quick Transpose</h1>
                 <InputBox setGivenChords={setGivenChords} />
                 <Chords
                     songChordsTransposedArray={songChordsTransposedArray}
