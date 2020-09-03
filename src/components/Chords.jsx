@@ -22,7 +22,7 @@ export const Chords = (props) => {
                 }
                 <tbody>
                     <tr>
-                        {songChords.map(chord => <td key={chord}>{chord}</td>)}
+                        {songChords.map((chord, index) => <td key={index}>{chord}</td>)}
                     </tr>
                 </tbody>
             </table>
