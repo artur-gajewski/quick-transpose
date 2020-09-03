@@ -16,7 +16,7 @@ export const Chords = (props) => {
                             <td>IV</td>
                             <td>V</td>
                             <td>vi</td>
-                            <td>VII&deg;</td>
+                            <td>vii&deg;</td>
                         </tr>
                     </thead>
                 }
